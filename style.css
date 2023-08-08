@@ -27,6 +27,7 @@
 body {
   
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -165,4 +166,12 @@ footer {
   justify-content: center;
   padding: 24px 0;
   text-decoration: underline;
+}
+@media (min-width: 700px) {
+:root {
+  --bg-url: url(./assets/assets/bg-desktop.jpg)
+}
+.ligth {
+  --bg-url:url(./assets/assets/bg-desktop)
+}
 }
